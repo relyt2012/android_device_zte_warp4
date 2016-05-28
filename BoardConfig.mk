@@ -49,7 +49,6 @@ BOARD_KERNEL_SEPARATED_DT    := true
 TARGET_KERNEL_SOURCE         := kernel/warp4
 TARGET_KERNEL_CONFIG         := msm8226-zte-warp4_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-TARGET_PREBUILT_KERNEL := device/zte/warp4/zImage
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_MKBOOTIMG_ARGS := --dt device/zte/warp4/dt.img --ramdisk_offset 0x01000000 --tags_offset 0x00000100
