@@ -46,7 +46,7 @@ BOARD_USES_LEGACY_MMAP := true
 
 # Kernel
 BOARD_KERNEL_SEPARATED_DT    := true
-TARGET_KERNEL_SOURCE         := /home/vinson/Android/Kernel/android_kernel_zte_msm8226
+TARGET_KERNEL_SOURCE         := kernel/warp4
 TARGET_KERNEL_CONFIG         := msm8226-zte-warp4_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_PREBUILT_KERNEL := device/zte/warp4/zImage
