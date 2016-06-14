@@ -2,8 +2,6 @@
 # Inherit device configuration
 $(call inherit-product, device/zte/warp4/warp4.mk)
 
-$(call inherit-product, vendor/pac/config/common_full_phone.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 720
 TARGET_SCREEN_WIDTH := 1280
