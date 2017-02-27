@@ -1,1 +1,1 @@
-add_lunch_combo pac_warp4-userdebug
+add_lunch_combo lineage_warp4-userdebug
