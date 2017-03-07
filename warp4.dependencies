@@ -15,6 +15,6 @@
         "remote":       "github",
         "repository":   "Bcrichster/vendor_zte_warp4",
         "target_path":  "vendor/zte/warp4",
-        "revision":     "5.1"
+        "revision":     "master"
     }
 ]
